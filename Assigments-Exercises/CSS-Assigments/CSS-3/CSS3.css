@@ -1,25 +1,60 @@
 /* body */
-
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
 /* profile-card */
-
+.profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
 /* cover-photo img */
-
+.cover-photo img {
+    background: linear-gradient(45deg, #42a5f5, #66bb6a, #ffeb3b, #ff7043);
+    height: 100px;
+}
 /* profile-content */
-
+.profile-content {
+    margin-top: -50px;
+}
 /* profile-picture */
-
+.profile-picture {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
 /* profile-info h2*/
-
+.profile-info h2 {
+    padding: 20px;
+}
 /* profile-info title*/
-
+.profile-info title {
+    margin: 10px 0 5px;
+}
 /* profile-info bio*/
-
+.profile-info bio {
+    margin: 5px 0;
+    color: #666;
+}
 /* title */
 
 /* bio */
 
 /* social ul */
-
+.social u1 {
+    background-color: #f7f7f7;
+    padding: 10px 0;
+}
 /* social a */
 
 /* social img */
